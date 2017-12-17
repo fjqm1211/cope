@@ -1,0 +1,13 @@
+#! /bin/bash
+
+comnumber = 0
+comnumber = $(($RANDOM % 101))
+
+read mynumber
+
+if $mynumber -gt comnumber; then
+ echo "up"
+elif $mynumber -lt comnumber; then
+ echo "down"
+elif $mynumber -eq comnumber; then
+ echo "correct you win"

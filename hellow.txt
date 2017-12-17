@@ -1,0 +1,2 @@
+hellow myname is Leejingu;
+this is embedded system.
